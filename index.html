@@ -136,6 +136,32 @@
       border-radius: 6px;
     }
 
+    .founder-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .founder-image {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #25D366;
+    }
+
+    .founder-name {
+      font-weight: 500;
+      color: #333;
+      font-size: 0.95rem;
+    }
+
     @media (max-width: 768px) {
       .card {
         flex-direction: column;
@@ -210,12 +236,12 @@
         <img src="./nxt-delivery/logo.jpeg" alt="NXT Delivery Logo" class="logo" />
       </div>
       <p class="slogan">
-        NxT delivery..........<br />Fast. Reliable. Secure.
+        Driven by Safety Delivered with speed.<br />Fast. Reliable. Secure.
       </p>
     </div>
 
     <div class="form-section">
-      <h2>NXT Delivery Book Now :)</h2>
+      <h2>NXT Delivery Book now</h2>
 
       <div class="form-group">
         <label for="from">From:</label>
@@ -238,6 +264,11 @@
       </div>
 
       <button onclick="sendToWhatsApp()">Send to WhatsApp</button>
+
+      <div class="founder-section">
+        <img src="./nxt-delivery/founder.png" alt="Founder" class="founder-image" />
+        <p class="founder-name">Founder: Amgoth Praveen</p>
+      </div>
 
       <div class="images-row">
         <img src="./nxt-delivery/image1.jpg" alt="Delivery Service 1" class="service-image" />
