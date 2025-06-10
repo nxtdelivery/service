@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
               <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-primary transition-colors">
+              <a href="https://www.instagram.com/nxt_delivery_/?utm_source=ig_web_button_share_sheet" className="bg-gray-800 p-2 rounded-full hover:bg-primary transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
@@ -62,11 +62,11 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary mr-2 shrink-0" />
-                <a href="tel:+919391332253" className="text-gray-400 hover:text-primary transition-colors">+91 93913 32253</a>
+                <a href="tel:+919391332253" className="text-gray-400 hover:text-primary transition-colors">+91 9391332253</a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-primary mr-2 shrink-0" />
-                <a href="mailto:info@nxtdelivery.com" className="text-gray-400 hover:text-primary transition-colors">info@nxtdelivery.com</a>
+                <a href="mailto:info@nxtdelivery.com" className="text-gray-400 hover:text-primary transition-colors">info@nxtdeliverylife.com</a>
               </li>
             </ul>
           </div>
